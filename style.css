@@ -1,0 +1,117 @@
+*{
+    background-color: black;
+}
+
+#scoreDisplay {
+    color: white;
+}
+
+#game{
+    width: 600px;
+    height: 600px;
+    border: 1px solid white;
+    margin: auto;
+    overflow: hidden;
+}
+
+#character {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 50px;
+
+}
+
+#obstacle1 {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 525px;
+    animation: obstacle1 1.5s infinite linear;
+}
+
+@keyframes obstacle1 {
+    0%{left: 600px}
+    100%{left:-75px}
+}
+
+#obstacle2 {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    animation: obstacle2 1.75s infinite linear;
+}
+
+@keyframes obstacle2 {
+    0%{left: 550px}
+    100%{left:-75px}
+}
+
+#obstacle3 {
+    width: 75px;
+    height:75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    animation: obstacle3 2s infinite linear;
+}
+
+@keyframes obstacle3 {
+    0%{left: 525px}
+    100%{left:-75px}
+}
+
+#obstacle4 {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    animation: obstacle4 1.5s infinite linear;
+}
+
+@keyframes obstacle4 {
+    0%{left: 550px}
+    100%{left:-75px}
+}
+
+#obstacle5 {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    animation: obstacle5 1.75s infinite linear;
+}
+
+@keyframes obstacle5 {
+    0%{left: 525px}
+    100%{left:-75px}
+}
+
+#obstacle6 {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    position: relative;
+    top: 75px;
+    left: 500px;
+    animation: obstacle6 2s infinite linear;
+}
+
+@keyframes obstacle6 {
+    0%{left: 545px}
+    100%{left:-75px}
+}
+
+
